@@ -1,3 +1,11 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fw-black {
+    font-weight: 600;
+  }
+
 :root {
     --bs-green-custom: #98ba7d;
 }
@@ -14,8 +22,15 @@
     border-color: var(--bs-green-custom) !important;
 }
 
+.text-blue-custom {
+    color: #252B42;
+}
+
+.text-second-custom {
+    color: #737373;
+}
 .font-size-custom {
-    font-size: 68px;
+    font-size: 60px;
 }
 
 .padding-custom {
